@@ -1,0 +1,16 @@
+title: MG Gyan
+description: सरकारी नौकरी, रिज़ल्ट, एडमिट कार्ड, आंसर की, सिलेबस और छात्रवृत्ति की सटीक जानकारी आसान हिंदी में।
+url: "https://mggyan.com"
+lang: hi
+permalink: /:title/
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+exclude:
+  - README.md
